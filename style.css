@@ -1,0 +1,54 @@
+.pixel{
+    background-color: rgb(255, 255, 255);    width: 80%;
+        height: 80%;
+        width: 650px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        grid-template-rows: auto;
+        gap: 7px;
+    }
+    .n{
+        color: rgb(0, 0, 0);
+        margin-left: 20px;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-family: sans-serif;
+        align-items: center;
+        width: 650px;
+    }
+    .menu1{
+        display: flex;
+    gap: 7px;
+    font-size: 10px;
+
+    }
+    .p1{
+        color: black;
+    }
+    nav{
+        grid-column: 1 / 4;
+    }
+    .photo1{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        }
+    .para1{
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+        margin-left: -150px;
+    }
+    .photo2{
+        padding-top: 15px;
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .photo3{
+        padding-top: 15px;
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+        margin-left: -150px;
+    }
